@@ -1,6 +1,5 @@
 package com.butter_con.Factory.Prac03;
 
-import com.butter_con.Factory.Prac03.*;
 import com.butter_con.Factory.Prac02.Korean;
 
 public class index {
