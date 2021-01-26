@@ -1,6 +1,6 @@
 package com.butter_con;
 
-import com.butter_con.Factory.Prac04.*;
+import com.butter_con.Factory.Prac05.*;
 
 public class Main {
 
