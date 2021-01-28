@@ -1,9 +1,8 @@
 package com.butter_con.Factory.Prac05;
 
-public class English implements Language{
+public class Korean implements Language {
     @Override
     public String text() {
-
-        return "hello world";
+        return "안녕하세요.";
     }
 }
