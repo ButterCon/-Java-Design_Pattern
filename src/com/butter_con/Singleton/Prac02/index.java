@@ -1,6 +1,10 @@
 package com.butter_con.Singleton.Prac02;
 
-public class index {
+import java.util.HashMap;
 
-    static String name = "hyeonwoo";
+public class index {
+    HashMap<String, String> map = new HashMap<String, String>(){{
+        put("name", "Hyeonwoo");
+        put("version", "1.0");
+    }};
 }
