@@ -7,4 +7,10 @@ public class index {
         put("name", "Hyeonwoo");
         put("version", "1.0");
     }};
+
+    public HashMap conf() {
+        return map;
+    }
+}
+  }
 }
