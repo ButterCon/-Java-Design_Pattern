@@ -12,5 +12,3 @@ public class index {
         return map;
     }
 }
-  }
-}
