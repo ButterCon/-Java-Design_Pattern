@@ -1,7 +1,12 @@
 package com.butter_con.Singleton.Prac09;
 
-public class Env extends Config{
-    private Env() {}
+import com.butter_con.Singleton.Prac09.Config.Config;
+
+public class Env extends Config {
+
+    public void setting() {
+        System.out.println("hello");
+    }
 
     public static Env getInstance() {
         if (Instance == null) {
