@@ -1,6 +1,6 @@
 package com.butter_con.Singleton.Prac09;
 
-import com.butter_con.Singleton.Prac09.Config.Config;
+import com.butter_con.Singleton.Prac09.Conf.Config;
 
 public class Env extends Config {
 

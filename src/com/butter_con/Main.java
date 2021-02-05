@@ -1,6 +1,6 @@
 package com.butter_con;
 
-import com.butter_con.Singleton.Prac09.*;
+import com.butter_con.FactoryMethod.Prac03.*;
 
 public class Main {
 

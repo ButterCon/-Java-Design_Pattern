@@ -1,7 +1,5 @@
 package com.butter_con.Singleton.Prac09;
 
-import com.butter_con.Singleton.Prac09.Config.Config;
-
 public class Index {
     Env env = Env.getInstance();
     //Config config = new Config();

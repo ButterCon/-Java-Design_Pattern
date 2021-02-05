@@ -1,4 +1,4 @@
-package com.butter_con.Singleton.Prac09.Config;
+package com.butter_con.Singleton.Prac09.Conf;
 
 public class Config {
 
