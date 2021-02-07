@@ -26,8 +26,8 @@ public class ProductFactory extends Factory {
             return new LgProduct();
         } else if(model == "SAMSUNG") {
             return new SamsungProduct();
+        } else {
+            return new NoProduct();
         }
-
-        return null;
     }
 }
