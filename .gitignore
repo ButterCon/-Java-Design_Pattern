@@ -6,3 +6,8 @@
 .idea/misc.xml
 .idea/project-template.xml
 .idea/vcs.xml
+src/com/butter_con/Main.java
+out/production/-Java-Design_Pattern/com/butter_con/Main.class
+out/production/-Java-Design_Pattern/com/butter_con/FactoryMethod/Prac04/ProductFactory.class
+out/production/-Java-Design_Pattern/com/butter_con/FactoryMethod/Prac04/Prod/NoProduct.class
+.idea/workspace-ButterCon-2.xml
