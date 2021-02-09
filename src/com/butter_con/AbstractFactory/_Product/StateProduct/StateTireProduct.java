@@ -1,6 +1,7 @@
-package com.butter_con.AbstractFactory.Prac01._Product.StateProduct;
+package com.butter_con.AbstractFactory._Product.StateProduct;
 
-import com.butter_con.AbstractFactory.Prac01._Product.TireProduct;
+import com.butter_con.AbstractFactory._Product.TireProduct;
+
 
 public class StateTireProduct extends TireProduct {
 

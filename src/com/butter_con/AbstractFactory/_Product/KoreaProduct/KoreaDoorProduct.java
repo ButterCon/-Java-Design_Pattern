@@ -1,6 +1,7 @@
-package com.butter_con.AbstractFactory.Prac01._Product.KoreaProduct;
+package com.butter_con.AbstractFactory._Product.KoreaProduct;
 
-import com.butter_con.AbstractFactory.Prac01._Product.DoorProduct;
+import com.butter_con.AbstractFactory._Product.DoorProduct;
+
 
 public class KoreaDoorProduct extends DoorProduct {
 

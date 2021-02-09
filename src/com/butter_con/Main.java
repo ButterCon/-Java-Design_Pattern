@@ -1,6 +1,6 @@
 package com.butter_con;
 
-import com.butter_con.FactoryMethod.Prac04.*;
+import com.butter_con.AbstractFactory.Index;
 
 public class Main {
 

@@ -1,6 +1,6 @@
-package com.butter_con.AbstractFactory.Prac01._Factory;
+package com.butter_con.AbstractFactory._Factory;
 
-import com.butter_con.AbstractFactory.Prac01._Product.StateProduct.*;
+import com.butter_con.AbstractFactory._Product.StateProduct.*;
 
 
 public class StateFactory extends Factory {

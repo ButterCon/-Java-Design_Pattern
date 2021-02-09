@@ -1,6 +1,7 @@
-package com.butter_con.AbstractFactory.Prac01._Product.KoreaProduct;
+package com.butter_con.AbstractFactory._Product.KoreaProduct;
 
-import com.butter_con.AbstractFactory.Prac01._Product.TireProduct;
+import com.butter_con.AbstractFactory._Product.TireProduct;
+
 
 public class KoreaTireProduct extends TireProduct {
 

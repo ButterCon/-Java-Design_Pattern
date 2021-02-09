@@ -1,8 +1,7 @@
-package com.butter_con.AbstractFactory.Prac01;
+package com.butter_con.AbstractFactory;
 
-import com.butter_con.AbstractFactory.Prac01._Factory.KoreaFactory;
-import com.butter_con.AbstractFactory.Prac01._Factory.StateFactory;
-import com.butter_con.AbstractFactory.Prac01._Product.KoreaProduct.KoreaTireProduct;
+import com.butter_con.AbstractFactory._Factory.KoreaFactory;
+import com.butter_con.AbstractFactory._Factory.StateFactory;
 
 public class Index {
 
