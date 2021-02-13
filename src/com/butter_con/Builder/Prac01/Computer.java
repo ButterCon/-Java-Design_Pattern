@@ -26,6 +26,7 @@ public class Computer {
     public int storage() {
         System.out.println("test");
         System.out.println("test");
+        System.out.println("test");
         return 0;
     }
 }
