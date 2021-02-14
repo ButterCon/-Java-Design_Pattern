@@ -27,6 +27,4 @@ public class Computer {
         System.out.println("test");
         System.out.println("test");
         System.out.println("test");
-        return 0;
-    }
-}
+        System.out.println("t
