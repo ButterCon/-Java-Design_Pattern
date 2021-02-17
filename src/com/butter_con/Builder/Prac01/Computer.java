@@ -6,8 +6,7 @@ public class Computer {
     public Memory[] _ram;
     public Storage[] _storage;
 
-    public Computer() {
-    }
+    public Computer() {}
 
     public String toString() {
         return
