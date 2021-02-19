@@ -4,7 +4,7 @@ package com.butter_con.Builder.Prac01;
 public class ProductModel extends Algorism{
 
     public ProductModel() {
-        
+
     }
 
     @Override
