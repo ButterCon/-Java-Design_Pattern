@@ -6,7 +6,7 @@ public class Index {
         Algorism algorism = new ProductModel();
 
         Factory factory = new Factory();
-
+        System.out.println("hello");
         System.out.println(this);
     }
 }
