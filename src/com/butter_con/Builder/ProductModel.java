@@ -13,12 +13,12 @@ public class ProductModel extends Algorism{
     }
 
     @Override
-    public Algorism setRam(int size) {
+    public Algorism setRam(int[] size) {
         return null;
     }
 
     @Override
-    public Algorism setStorage(int size) {
+    public Algorism setStorage(int[] size) {
         return null;
     }
 }

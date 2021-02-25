@@ -6,7 +6,6 @@ public class ConcreteBuilder extends Builder{
 
     }
     @Override
-    public Builder build() {
-        return null;
+    public void build() {
     }
 }
