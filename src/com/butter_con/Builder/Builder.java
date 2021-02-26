@@ -17,5 +17,5 @@ abstract public class Builder {
     }
 
     //추상 메서드 선언
-    abstract public void build();
+    abstract public Algorism build();
 }

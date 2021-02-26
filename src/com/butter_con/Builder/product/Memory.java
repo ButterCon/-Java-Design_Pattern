@@ -7,6 +7,10 @@ public class Memory {
 
     public Memory() {}
 
+    public Memory(int size) {
+        this.size = size;
+    }
+
     public void setSize(int size) {
         this.size = size;
     }

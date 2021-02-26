@@ -1,18 +1,21 @@
 package com.butter_con.Builder;
 
+import com.butter_con.Builder.product.Computer;
+
+
 abstract public class Algorism {
 
-    private Algorism Composite;
+    protected Computer Composite;
 
-    abstract public Algorism setCpu(String cpu);
-    abstract public Algorism setRam(int[] size);
-    abstract public Algorism setStorage(int[] size);
+    abstract public void setCpu(String cpu);
+    abstract public void setRam(int[] size);
+    abstract public void setStorage(int[] size);
 
-    public void setInstance(Algorism composite) {
-        this.Composite = composite;
+    public void setInstance(Computer Composite) {
+        this.Composite = Composite;
     }
 
-    public Algorism getInstance() {
+    public Computer getInstance() {
         return this.Composite;
     }
 }
