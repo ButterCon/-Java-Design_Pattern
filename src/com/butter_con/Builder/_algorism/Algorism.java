@@ -1,4 +1,4 @@
-package com.butter_con.Builder;
+package com.butter_con.Builder._algorism;
 
 import com.butter_con.Builder.product.Computer;
 

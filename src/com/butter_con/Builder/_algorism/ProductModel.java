@@ -1,4 +1,4 @@
-package com.butter_con.Builder;
+package com.butter_con.Builder._algorism;
 
 
 import com.butter_con.Builder.product.*;
@@ -20,12 +20,16 @@ public class ProductModel extends Algorism{
         System.out.println("RAM을 설정합니다.");
         for(int mem : size) {
             System.out.println("슬롯 " + mem + "GB 장착");
-            Composite._ram = new Memory[mem];
+            Composite._ram.add(new Memory(mem));
         }
     }
 
     @Override
     public void setStorage(int[] size) {
-        return null;
+         System.out.println("Storage를 설정합니다.");
+         for(int disk : size) {
+            System.out.println("슬롯 " + disk + "GB 장착");
+            Composite._storage.add(new Storage(disk));
+         }
     }
 }

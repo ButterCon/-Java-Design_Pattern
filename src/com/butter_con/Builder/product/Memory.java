@@ -5,8 +5,6 @@ public class Memory {
 
     private int size;
 
-    public Memory() {}
-
     public Memory(int size) {
         this.size = size;
     }

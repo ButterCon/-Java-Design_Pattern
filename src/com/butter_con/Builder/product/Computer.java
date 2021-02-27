@@ -1,10 +1,11 @@
 package com.butter_con.Builder.product;
 
+import java.util.*;
 
 public class Computer {
     public String _cpu;
-    public Memory[] _ram;
-    public Storage[] _storage;
+    public List<Memory> _ram = new ArrayList<Memory>();
+    public List<Storage> _storage = new ArrayList<Storage>();
 
     public Computer() {}
 

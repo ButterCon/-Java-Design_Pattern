@@ -1,6 +1,8 @@
 package com.butter_con.Builder;
 
 
+import com.butter_con.Builder._algorism.ProductModel;
+import com.butter_con.Builder._builder.Factory;
 import com.butter_con.Builder.product.Computer;
 
 public class Index {
@@ -11,5 +13,7 @@ public class Index {
         factory.setAlgorism(algorism);
 
         Computer computer = factory.build().getInstance();
+
+        System.out.println(computer.toString());
     }
 }

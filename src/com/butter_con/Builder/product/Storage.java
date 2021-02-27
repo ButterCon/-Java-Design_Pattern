@@ -5,7 +5,9 @@ public class Storage {
 
     private int size;
 
-    public Storage() {}
+    public Storage(int size) {
+        this.size = size;
+    }
 
     public void setSize(int size) {
         this.size = size;
