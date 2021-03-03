@@ -1,6 +1,6 @@
 package com.butter_con;
 
-import com.butter_con.Prototype.Index;
+import com.butter_con.Prototype.Prac01.Index;
 
 public class Main {
 
