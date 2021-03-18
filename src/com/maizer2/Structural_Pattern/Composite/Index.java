@@ -14,7 +14,16 @@ public class Index {
         obj.setMemory(new Memory());
 
         obj.monitor.addMonitor(new Monitor32());
-        System.out.println(obj.name);
-        System.out.println(obj.monitor.name);
+        obj.monitor.addMonitor(new Monitor32());
+
+        obj.disk.addDisk(new Disk256());
+        obj.disk.addDisk(new Disk512());
+
+        obj.memory.addMemory(new Memory8());
+        obj.memory.addMemory(new Memory8());
+
+        obj.monitor.show();
+        obj.disk.show();
+        obj.memory.show();
     }
 }

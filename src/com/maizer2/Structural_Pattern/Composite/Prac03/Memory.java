@@ -4,16 +4,16 @@ import java.util.*;
 
 public class Memory {
 
-    public List<Memory> memories = new ArrayList<Memory>();
+    public List<Memory_part> memories = new ArrayList<Memory_part>();
     public String name = "메모리";
 
-    public void addmemory(Memory memory) {
+    public void addMemory(Memory_part memory) {
         memories.add(memory);
     }
 
     public void show() {
-        for(Memory part : this.memories) {
-            System.out.println(part.name);
+        for(Memory_part part : this.memories) {
+            System.out.println(part.name());
         }
     }
 }

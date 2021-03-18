@@ -10,6 +10,7 @@ public class Computer {
 
     public String name = "구성";
 
+
     public void setMonitor(Monitor monitor) {
         this.monitor = monitor;
     }
