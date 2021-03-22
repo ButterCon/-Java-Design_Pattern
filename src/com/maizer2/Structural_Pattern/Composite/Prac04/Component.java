@@ -1,4 +1,5 @@
-package com.maizer2.Structural_Pattern.Composite.Prac05;
+package com.maizer2.Structural_Pattern.Composite.Prac04;
+
 
 public abstract class Component {
 

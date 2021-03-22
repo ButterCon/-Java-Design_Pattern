@@ -1,29 +1,44 @@
 package com.maizer2.Structural_Pattern.Composite;
 
 
-import com.maizer2.Structural_Pattern.Composite.Prac03.*;
+import com.maizer2.Structural_Pattern.Composite.Prac05.*;
+import java.util.*;
+
 
 public class Index {
 
     public void run() {
+       Composite root = new Composite("root");
+       Composite home = new Composite("home");
+       Composite hojin = new Composite("hojin");
+       Composite jiny = new Composite("jiny");
+       Composite users = new Composite("user");
+       Composite temp = new Composite("temp");
 
-        Computer obj = new Computer();
+       Leaf img1 = new Leaf("img1");
+       Leaf img2 = new Leaf("img2");
+       Leaf img3 = new Leaf("img3");
+       Leaf img4 = new Leaf("img4");
 
-        obj.setMonitor(new Monitor());
-        obj.setDisk(new Disk());
-        obj.setMemory(new Memory());
+       root.addNode(home);
+       root.addNode(users);
 
-        obj.monitor.addMonitor(new Monitor32());
-        obj.monitor.addMonitor(new Monitor32());
+       users.addNode(hojin);
+       hojin.addNode(img1);
+       hojin.addNode(img2);
+       hojin.addNode(img3);
+       hojin.addNode(img4);
 
-        obj.disk.addDisk(new Disk256());
-        obj.disk.addDisk(new Disk512());
-
-        obj.memory.addMemory(new Memory8());
-        obj.memory.addMemory(new Memory8());
-
-        obj.monitor.show();
-        obj.disk.show();
-        obj.memory.show();
+       users.addNode(jiny);
+       root.addNode(temp);
     }
+
+    public void tree(Composite composite) {
+      HashMap<String, Component> arr = composite.children;
+
+     arr.forEach((key, value)
+             -> System.out.println("Key :" + key + ", Value :" + value));
+
+        }
+   }
 }
