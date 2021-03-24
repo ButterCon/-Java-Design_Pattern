@@ -39,6 +39,5 @@ public class Index {
      arr.forEach((key, value)
              -> System.out.println("Key :" + key + ", Value :" + value));
 
-        }
    }
 }
