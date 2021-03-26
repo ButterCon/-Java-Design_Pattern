@@ -34,10 +34,15 @@ public class Index {
     }
 
     public void tree(Composite composite) {
-      HashMap<String, Component> arr = composite.children;
+      HashMap<String, Composite> arr = composite.children;
 
-     arr.forEach((key, value)
-             -> System.out.println("Key :" + key + ", Value :" + value));
+     arr.forEach((key, value) -> {
+        if (value instanceof Composite) {
+            System.out.println("Folder = " + key);
+
+            if (value.)
+        }
+     });
 
    }
 }

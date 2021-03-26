@@ -5,23 +5,23 @@ import java.util.*;
 
 public class Composite extends Component {
 
-    public HashMap<String, Component> children = new HashMap<String, Component>();
+    public HashMap<String, Composite> children = new HashMap<String, Composite>();
 
     public Composite(String name) {
         this.setName(name);
     }
 
-    public void addNode(Component folder) {
+    public void addNode(Composite folder) {
         String name = folder.getName();
         this.children.put(name, folder);
     }
 
-    public void removeNode(Component component) {
+    public void removeNode(Composite component) {
         String name = component.getName();
         this.children.remove(name);
     }
 
-    public HashMap<String, Component> isNode(Component component) {
+    public HashMap<String, Composite> isNode(Composite composite) {
         return this.children;
     }
 }
